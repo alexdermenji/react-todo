@@ -1,9 +1,9 @@
 import classes from "./List.module.scss";
 import ColorBadge from "../ColorBadge/ColorBadge";
 import classNames from "classnames";
-const List = ({ items }) => {
+const List = ({ items, onClick }) => {
   return (
-    <ul className={classes.list}>
+    <ul className={classes.list} onClick={onClick}>
       {items.map((item) => {
         return (
           <li

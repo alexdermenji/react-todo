@@ -1,2 +1,58 @@
 .addMenuPopup {
+  position: relative;
+  width: 235px;
+  height: 148px;
+  background: #ffffff;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.btn {
+  color: #ffffff;
+  width: 200px;
+  height: 37px;
+  background: #4dd599;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 20px;
+  margin-top: 15px;
+
+  &:hover {
+    background-color: darken(#4dd599, 6%);
+  }
+  &:active {
+    background-color: darken(#4dd599, 10%);
+  }
+}
+
+.input {
+  padding-left: 11px;
+  color: #c7c7c7;
+  width: 200px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  &:focus {
+    border-color: #dbdbdb;
+  }
+}
+
+.colorItems {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+
+  .badge {
+    width: 20px;
+    height: 20px;
+  }
+}
+.closeIcon {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  cursor: pointer;
 }

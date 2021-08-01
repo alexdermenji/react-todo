@@ -1,0 +1,17 @@
+.badge {
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+}
+
+.badge__big {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 3px solid transparent;
+
+  &-active,
+  &:active {
+    border: 3px solid #525252;
+  }
+}
